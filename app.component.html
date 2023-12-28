@@ -1,0 +1,21 @@
+<h1 style="color: aqua;">ONE WAY DATA BINDING..........</h1>
+<h1>{{person}}</h1>
+<hr>
+<br>
+
+<h1 style="color: darkblue;">TWO WAY BINDING..........</h1>
+<input type="text" [(ngModel)]="name" placeholder="please enter name :"> 
+<h2>WELCOME TO MR.{{name}}</h2>
+<hr>
+<br>
+
+<h1> EVENT BINDING UPDATE COLOR..........</h1>
+<h2 [style.color]='color'>......PANKU DEVELOPER......</h2>
+<button (click)="updatecolor()">Update</button>
+<hr>
+<br>
+
+<H1>PROPERTY BINDING.....</H1>
+<img [src]=imagePath/>
+<hr>
+<br>
